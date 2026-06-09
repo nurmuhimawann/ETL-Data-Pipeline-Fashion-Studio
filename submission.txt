@@ -1,0 +1,15 @@
+# Python version
+Python 3.10.6
+
+# run skrip ETL pipeline
+python main.py
+
+# run unit test pada folder tests
+python -m pytest tests
+
+# run test coverage pada folder tests
+coverage run -m pytest tests
+coverage report -m
+
+# URL Google Sheets:
+https://docs.google.com/spreadsheets/d/{your_google_spreadsheet_id}/edit?usp=sharing

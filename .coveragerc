@@ -1,0 +1,17 @@
+[run]
+source =
+    config
+    main
+    utils
+
+omit =
+    tests/*
+    */__init__.py
+    venv/*
+
+[report]
+show_missing = True
+fail_under = 100
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:

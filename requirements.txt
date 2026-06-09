@@ -1,0 +1,7 @@
+beautifulsoup4==4.14.3
+google_api_python_client==2.197.0
+pandas==3.0.3
+protobuf==7.35.0
+pytest==9.0.3
+python-dotenv==1.2.2
+Requests==2.34.2
